@@ -1,0 +1,84 @@
+import objectdraw.*;
+import java.awt.*;
+
+/**
+ * draws a stick man.  man grows on each mouse click.
+ * 
+ * @author Your Name Here
+ */
+
+public class GrowMan extends WindowController {
+
+    //amount each body part grows by (should be even)
+    private static final int GROW=2;
+    
+    // initial size of head
+    private static final int HEAD_SIZE = 6; 
+    
+    // initial displacement of limbs from body
+    // both horizontally and vertically
+    private static final int LIMB_SIZE = 5;
+
+    // x and y coordinates of initial starting point
+    private static final int HEAD_START = 50;
+    
+    // Coordinates of body parts
+    private static final int BODY_X = HEAD_START + HEAD_SIZE / 2;
+    private static final int NECK_Y = HEAD_START + HEAD_SIZE;
+    private static final int ARMPIT_Y = HEAD_START + 2*HEAD_SIZE;
+    private static final int BODY_END = HEAD_START + 3*HEAD_SIZE;
+    private static final int FEET_Y = BODY_END + LIMB_SIZE;
+    private static final int ARMS_Y = ARMPIT_Y - LIMB_SIZE;
+    private static final int LEFT_X = BODY_X - LIMB_SIZE;
+    private static final int RIGHT_X = BODY_X + LIMB_SIZE;
+
+    // Instance variables
+    private FramedOval head;
+    private Line    body,
+                    leftArm,
+                    rightArm,
+                    leftLeg,
+                    rightLeg;
+                    
+    public GrowMan() {
+        startController( 600, 600);
+    }
+
+    public void begin(){
+        // create the body parts for head, body, leftArm
+        // rightArm, leftLeg and rightLeg.  Use the 
+        // constants defined above.
+        head = new FramedOval( HEAD_START, ??,  HEAD_SIZE,  ??, canvas );
+        body = new Line( BODY_X,  NECK_Y,  ??,  ??,  canvas );
+        leftArm = new Line ( ??, ??, ??, ??, canvas );
+        
+        
+        
+        
+    }
+    public void onMouseClick(Location point){
+        // use the coordinate (HEAD_START, HEAD_START) as the 
+        // dilation point.  This is the  x and y coordinates
+        // of the head.
+        int xDilation = HEAD_START;
+        int yDilation = HEAD_START;
+        
+        // the width of the head will increase by GROW pixels
+        // calculate the dilation ratio
+        double dratio = 1.0 + ??  
+        
+        // change the width and height of the head.
+        
+        
+        // since the  x,y location of the head is the 
+        // dilation point, the  x,y location of the 
+        // head will not change.
+       
+        // for each of the other body parts 
+        // change the Start and End coordinates 
+        // using the dilation point and the dilation ratio.
+        
+        
+    }
+}
+

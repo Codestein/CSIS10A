@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Boxball/src/Boxball.iml" filepath="$PROJECT_DIR$/Boxball/src/Boxball.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dicey/Broomball2/src/Broomball.iml" filepath="$PROJECT_DIR$/Dicey/Broomball2/src/Broomball.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dicey/Dicey/src/Dicey.iml" filepath="$PROJECT_DIR$/Dicey/Dicey/src/Dicey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Growman, RandBox/Drago/src/Drago.iml" filepath="$PROJECT_DIR$/Growman, RandBox/Drago/src/Drago.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Growman, RandBox/GrowMan/src/GrowMan.iml" filepath="$PROJECT_DIR$/Growman, RandBox/GrowMan/src/GrowMan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoClicking/Lines/src/Lines.iml" filepath="$PROJECT_DIR$/NoClicking/Lines/src/Lines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NibblesProject/src/NibblesProject.iml" filepath="$PROJECT_DIR$/NibblesProject/src/NibblesProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoClicking/NoClicking/src/NoClicking.iml" filepath="$PROJECT_DIR$/NoClicking/NoClicking/src/NoClicking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Growman, RandBox/RandomBox/src/RandomBox.iml" filepath="$PROJECT_DIR$/Growman, RandBox/RandomBox/src/RandomBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scriblr/src/Scriblr.iml" filepath="$PROJECT_DIR$/Scriblr/src/Scriblr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringFlowers/src/SpringFlowers.iml" filepath="$PROJECT_DIR$/SpringFlowers/src/SpringFlowers.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,41 @@
+import objectdraw.*;
+import java.awt.*;
+
+/**
+ * Your Program Name
+ * 
+ * Your Name
+ */
+
+// This program is an empty but runnable program that does nothing. 
+// You may use it to begin your homework assignments for CSIS10A.
+// Change the class name EmptyProgram to your program's actual name
+
+public class EmptyProgram extends WindowController{
+
+// declare instance variables here
+
+
+    public EmptyProgram() {
+      startController(700,500);
+    }
+
+    public void begin() {
+    }
+
+    public void onMouseClick(Location point) {
+    }
+    
+    public void onMouseEnter( Location point ) {
+    }
+
+    public void onMouseExit( Location point ) {
+	}
+
+    public void onMousePress( Location point ) {
+	}
+
+    public void onMouseRelease( Location point ) {
+    }          
+}
+
